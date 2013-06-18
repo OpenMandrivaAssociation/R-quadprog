@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.5_4
-Release:          1
+Release:          2
 Summary:          Functions to solve Quadratic Programming Problems
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
