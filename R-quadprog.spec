@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.5_4
-Release:          2
+Version:          1.5.5
+Release:          1
 Summary:          Functions to solve Quadratic Programming Problems
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.5-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/quadprog_1.5-5.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
@@ -48,4 +48,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775349
 - Import R-quadprog
 - Import R-quadprog
+
 
